@@ -3,8 +3,8 @@ title: Forty
 subtitle: by HTML5 UP
 email: jcfernandezperez99@gmail.com
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: "/home" # the subpath of your site, e.g. /blog
+url: "jcfernandezperez99.github.io" # the base hostname & protocol for your site
 author:
 street_address: 
 city: 
