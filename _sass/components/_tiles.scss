@@ -15,6 +15,9 @@
 			border-top: 0 !important;
 		}
 
+		padding-left: 8em;
+		padding-right: 8em;
+
 		article {
 			@include vendor('align-items', 'center');
 			@include vendor('display', 'flex');
@@ -34,7 +37,7 @@
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 33.33%;
 
 			.image {
 				display: none;
@@ -43,6 +46,9 @@
 			header {
 				position: relative;
 				z-index: 3;
+				height: 100%;
+				width: 100%;
+				margin: 0;
 			}
 
 			h3 {
@@ -102,7 +108,10 @@
 				opacity: 0;
 			}
 
-			&:nth-child(4n - 1),
+			&:nth-child(4n - 1){
+				flex: 1 auto;
+			}
+
 			&:nth-child(4n - 2) {
 				flex: 1 auto;
 			}
