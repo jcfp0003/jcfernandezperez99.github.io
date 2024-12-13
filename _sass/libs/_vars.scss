@@ -30,18 +30,59 @@
 
 // Palette.
 	$palette: (
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
+		/** Dark theme primary colors */
+		clr-primary-a0: #026600,
+		clr-primary-a10: #2f7624,
+		clr-primary-a20: #4c873f,
+		clr-primary-a30: #669859,
+		clr-primary-a40: #7fa973,
+		clr-primary-a50: #98ba8e,
+
+		/** Dark theme surface colors */
+		clr-surface-a0: #00181f,
+		clr-surface-a10: #1b2d34,
+		clr-surface-a20: #34434a,
+		clr-surface-a30: #4e5b61,
+		clr-surface-a40: #697479,
+		clr-surface-a50: #858e93,
+
+		/** Dark theme tonal surface colors */
+		clr-surface-tonal-a0: #061f1f,
+		clr-surface-tonal-a10: #1f3434,
+		clr-surface-tonal-a20: #374a4a,
+		clr-surface-tonal-a30: #516161,
+		clr-surface-tonal-a40: #6b7a79,
+		clr-surface-tonal-a50: #879393,
+
+		clr-primary-text: white,
+
+		bg:					#00181f,
+		bg-alt:				#1b2d34,
 		fg:					#ffffff,
-		fg-bold:			#ffffff,
-		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
-		highlight:			#9bf1ff,
-		accent1:			#6fc3df,
-		accent2:			#8d82c4,
-		accent3:			#ec8d81,
-		accent4:			#e7b788,
-		accent5:			#8ea9e8,
-		accent6:			#87c5a4
+		fg-bold:			#7fa973,
+		fg-light:			#374a4a,
+		border:				#1f3434,
+		border-bg:			#061f1f,
+		highlight:			#026600,
+		accent1:			#026600,
+		accent2:			#2f7624,
+		accent3:			#4c873f,
+		accent4:			#669859,
+		accent5:			#7fa973,
+		accent6:			#98ba8e
+
+		// bg:					#242943,
+		// bg-alt:				#2a2f4a,
+		// fg:					#ffffff,
+		// fg-bold:			#ffffff,
+		// fg-light:			rgba(244,244,255,0.2),
+		// border:				rgba(212,212,255,0.1),
+		// border-bg:			rgba(212,212,255,0.035),
+		// highlight:			#9bf1ff,
+		// accent1:			#6fc3df,
+		// accent2:			#8d82c4,
+		// accent3:			#ec8d81,
+		// accent4:			#e7b788,
+		// accent5:			#8ea9e8,
+		// accent6:			#87c5a4
 	);
